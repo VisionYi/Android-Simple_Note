@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/item_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:orderInCategory="1"
+        android:title="search"
+        android:icon="@drawable/ic_search_white_24p"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/item_sort"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        android:title="sort"
+        android:icon="@drawable/ic_sort_white_24p" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_datetime"
+                    android:title="日期排序" />
+                <item
+                    android:id="@+id/sort_label"
+                    android:title="標籤排序" />
+                <item
+                    android:id="@+id/sort_title"
+                    android:title="標題排序" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_select"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        android:title="選取" />
+    <!--<item-->
+        <!--android:id="@+id/item_changeColor"-->
+        <!--app:showAsAction="never"-->
+        <!--android:orderInCategory="4"-->
+        <!--android:title="改變顏色" />-->
+
+
+</menu>

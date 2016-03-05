@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".New_noteActivity">
+
+    <item
+        android:id="@+id/item_saveNote"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:title="儲存"
+        android:icon="@drawable/ic_save_24p"/>
+
+    <!--<item-->
+        <!--android:id="@+id/item_addPicture"-->
+        <!--app:showAsAction="never"-->
+        <!--android:orderInCategory="3"-->
+        <!--android:title="新增圖片"-->
+        <!--android:visible="false"/>-->
+    <!--<item-->
+        <!--android:id="@+id/item_cameraCapture"-->
+        <!--app:showAsAction="never"-->
+        <!--android:orderInCategory="4"-->
+        <!--android:title="拍攝相片" />-->
+    <!--<item-->
+        <!--android:id="@+id/item_changeBackground"-->
+        <!--app:showAsAction="never"-->
+        <!--android:orderInCategory="5"-->
+        <!--android:title="更改背景" />-->
+
+</menu>

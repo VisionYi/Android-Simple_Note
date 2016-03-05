@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="end">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:id="@+id/image_list_screenshot"
+            android:src ="@drawable/star_blue_32"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="標題Title!@!@"
+                android:id="@+id/textView_list_title"
+                android:textSize="@dimen/text_size_23sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/listView_Title_text" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/image_list_star"
+                    android:src="@drawable/star_gold_32"
+                    android:visibility="visible"
+                    android:layout_toRightOf="@+id/textView_list_label"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="筆記本"
+                    android:id="@+id/textView_list_label"
+                    android:textSize="@dimen/text_size_15sp"
+                    android:background="@drawable/shape_retangle"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12/30"
+                    android:id="@+id/textView_list_date"
+                    android:textSize="@dimen/text_size_15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:id="@+id/image_list_select"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/check_box_outline_32"
+            android:visibility="visible"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

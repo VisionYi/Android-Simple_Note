@@ -1,0 +1,30 @@
+<resources>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">Simple_Note</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_month">2015年-12月</string>
+
+    <string-array name="Notes_title">
+        <item>XXXX</item>
+        <item>OOOOOO</item>
+        <item>O好棒棒Oo0b</item>
+        <item>你是誰啊</item>
+        <item>我爽啦~~~</item>
+        <item>!!!!QAQ!!!!</item>
+        <item>__這是測試$$__</item>
+    </string-array>
+
+    <string name="title_activity_new_note">New_note</string>
+    <string name="button_determine">確定</string>
+    <string name="button_cancel">取消</string>
+    <string name="textView_newNote">\n\n\n輸 入 文 字 內 容</string>
+    <string name="textView_title">標題</string>
+    <string name="editView" >\n\n\n\n\n\n</string>
+    <string name="empty_text">目前查無任何項目=.W.=</string>
+    <string name="dialog_title">預設初始筆記</string>
+    <string name="editText_picture_ex">可加入圖片說明</string>
+
+
+</resources>

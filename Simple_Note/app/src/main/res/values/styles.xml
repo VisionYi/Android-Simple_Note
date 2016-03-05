@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="mainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mainTheme.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:actionBarItemBackground">@drawable/toolbar_button_bg</item>
+        <!-- 按下item會改變底色顏色-->
+        <item name="android:selectableItemBackground">@drawable/toolbar_button_bg</item>
+        <item name="titleTextColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="ToolbarStyle_note">
+        <item name="android:actionBarItemBackground">@drawable/toolbar_button_note</item>
+        <item name="android:selectableItemBackground">@drawable/toolbar_button_note</item>
+        <item name="actionMenuTextColor">@android:color/black</item>
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!-- menu下拉選項底色:黑 ,文字:白-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- menu下拉選項底色:白 ,文字:黑-->
+
+</resources>

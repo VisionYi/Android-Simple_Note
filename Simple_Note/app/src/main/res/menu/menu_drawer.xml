@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_newNote"
+            android:title="新增-筆記"/>
+        <item
+            android:id="@+id/set_password"
+            android:title="設定密碼"/>
+
+    </group>
+
+    <item android:title="筆記"/>
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/Note"-->
+            <!--android:title="筆記本"/>-->
+        <!--<item-->
+            <!--android:icon="@+id/draw"-->
+            <!--android:title="繪圖本"/>-->
+        <!--<item-->
+            <!--android:icon="@+id/myself"-->
+            <!--android:title="自訂本"/>-->
+
+    <!--</group>-->
+</menu>

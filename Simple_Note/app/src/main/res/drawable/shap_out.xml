@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:shape指定形狀類型，默認為rectangle -->
+<shape  xmlns:android= "http://schemas.android.com/apk/res/android"
+    android:shape= "rectangle" >
+    <!-- solid指定形狀的填充色，只有android:color一個屬性-->
+    <solid  android:color="@android:color/transparent"  />
+    <!-- padding設置內容區域離邊界的間距-->
+    <padding
+        android:bottom= "6dp"
+        android:left= "6dp"
+        android:right= "6dp"
+        android:top= "6dp"  />
+    <!-- corners設置圓角，只適用於rectangle -->
+    <corners  android:radius= "20dp"  />
+    <!-- stroke設置描邊-->
+    <stroke
+        android:width= "2dp"
+        android:color= "@android:color/darker_gray"
+        android:dashGap= "4dp"
+        android:dashWidth= "4dp"  />
+</shape>
